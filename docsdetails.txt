@@ -1,0 +1,77 @@
+[
+   {
+      "docRefId":"D001",
+      "docs":[
+         {
+            "docId":"09f7c6b9-0677-4bd5-aae5-467800103d06",
+            "docRefId":"D001",
+            "docFormNum":"",
+            "docGroupEn":"Proof of Income",
+            "docGroupFr":"",
+            "docTitleEn":"T4 (2 Years)",
+            "docTitleFr":"Feuillet T4 (deux ans)",
+            "docInstrEn":"Veuillez fournir des copies de votre T4 des 2 dernières années. Un T4 est un document délivré par votre employeur détaillant le total inc.",
+            "docInstrFr":"Veuillez fournir des copies de vos feuillets T4 des deux dernieres annees. Un feuillet T4 est un document emis par votre e",
+            "docStatusCode":"Pending",
+            "docDueDate":null,
+            "suppInfoField1":"",
+            "suppInfoField2":"",
+            "suppInfoField3":"",
+            "docStorageRefId":null,
+            "tempStorageRefId":null,
+            "docSubStatusCode":"Pending",
+            "docRequiredInd":"Y"
+         }
+      ]
+   },
+   {
+      "docRefId":"D002",
+      "docs":[
+         {
+            "docId":"09f7c6b9-0677-4bd5-aae5-467800103d06",
+            "docRefId":"D002",
+            "docFormNum":"",
+            "docGroupEn":"Proof of Income",
+            "docGroupFr":"",
+            "docTitleEn":"T4 (2 Years)",
+            "docTitleFr":"Feuillet T4 (deux ans)",
+            "docInstrEn":"Please provide copies of your T4 from the last 2 years. A T4 is a document issued by your  employer detailing the total inc",
+            "docInstrFr":"Veuillez fournir des copies de vos feuillets T4 des deux dernieres annees. Un feuillet T4 est un document emis par votre e",
+            "docStatusCode":"Pending",
+            "docDueDate":null,
+            "suppInfoField1":"",
+            "suppInfoField2":"",
+            "suppInfoField3":"",
+            "docStorageRefId":null,
+            "tempStorageRefId":null,
+            "docSubStatusCode":"Pending",
+            "docRequiredInd":"Y"
+         }
+      ]
+   },
+   {
+      "docRefId":"D003",
+      "docs":[
+         {
+            "docId":"09f7c6b9-0677-4bd5-aae5-467800103d06",
+            "docRefId":"D003",
+            "docFormNum":"",
+            "docGroupEn":"Proof of Income",
+            "docGroupFr":"",
+            "docTitleEn":"T4 (2 Years)",
+            "docTitleFr":"Feuillet T4 (deux ans)",
+            "docInstrEn":"Please provide copies of your T4 from the last 2 years. A T4 is a document issued by your  employer detailing the total inc",
+            "docInstrFr":"Veuillez fournir des copies de vos feuillets T4 des deux dernieres annees. Un feuillet T4 est un document emis par votre e",
+            "docStatusCode":"Pending",
+            "docDueDate":null,
+            "suppInfoField1":"",
+            "suppInfoField2":"",
+            "suppInfoField3":"",
+            "docStorageRefId":null,
+            "tempStorageRefId":null,
+            "docSubStatusCode":"Pending",
+            "docRequiredInd":"Y"
+         }
+      ]
+   }
+]

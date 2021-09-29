@@ -1,0 +1,219 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "https://example.com/object1630457660.json",
+	"title": "Root",
+	"type": "object",
+	"required": [
+		"ddhStatus",
+		"clients"
+	],
+	"properties": {
+		"ddhStatus": {
+			"$id": "#root/ddhStatus",
+			"title": "Ddhstatus",
+			"type": "string",
+			"default": "",
+			"pattern": "^.*$"
+		},
+		"clients": {
+			"$id": "#root/clients",
+			"title": "Clients",
+			"type": "array",
+			"default": [],
+			"items":{
+				"$id": "#root/clients/items",
+				"title": "Items",
+				"type": "object",
+				"required": [
+					"chid",
+					"clientRefId",
+					"chStatus",
+					"docs"
+				],
+				"properties": {
+					"chid": {
+						"$id": "#root/clients/items/chid",
+						"title": "Chid",
+						"type": "string",
+						"default": "",
+						"pattern": "^.*$"
+					},
+					"clientRefId": {
+						"$id": "#root/clients/items/clientRefId",
+						"title": "Clientrefid",
+						"type": "string",
+						"default": "",
+						"pattern": "^.*$"
+					},
+					"chStatus": {
+						"$id": "#root/clients/items/chStatus",
+						"title": "Chstatus",
+						"type": "string",
+						"default": "",
+						"pattern": "^.*$"
+					},
+					"docs": {
+						"$id": "#root/clients/items/docs",
+						"title": "Docs",
+						"type": "array",
+						"default": [],
+						"items":{
+							"$id": "#root/clients/items/docs/items",
+							"title": "Items",
+							"type": "object",
+							"required": [
+								"docId",
+								"docRefId",
+								"docFormNum",
+								"docGroupEn",
+								"docGroupFr",
+								"docTitleEn",
+								"docTitleFr",
+								"docInstrEn",
+								"docInstrFr",
+								"docStatusCode",
+								"docDueDate",
+								"suppInfoField1",
+								"suppInfoField2",
+								"suppInfoField3",
+								"docStorageRefId",
+								"tempStorageRefId",
+								"docSubStatusCode",
+								"docRequiredInd",
+								"amey"
+							],
+							"properties": {
+								"docId": {
+									"$id": "#root/clients/items/docs/items/docId",
+									"title": "Docid",
+									"type": "string",
+									"default": "",
+									"pattern": "^.*$"
+								},
+								"docRefId": {
+									"$id": "#root/clients/items/docs/items/docRefId",
+									"title": "Docrefid",
+									"type": "string",
+									"default": "",
+									"pattern": "^.*$"
+								},
+								"docFormNum": {
+									"$id": "#root/clients/items/docs/items/docFormNum",
+									"title": "Docformnum",
+									"type": "string",
+									"default": "",
+									"pattern": "^.*$"
+								},
+								"docGroupEn": {
+									"$id": "#root/clients/items/docs/items/docGroupEn",
+									"title": "Docgroupen",
+									"type": "string",
+									"default": "",
+									"pattern": "^.*$"
+								},
+								"docGroupFr": {
+									"$id": "#root/clients/items/docs/items/docGroupFr",
+									"title": "Docgroupfr",
+									"type": "string",
+									"default": "",
+									"pattern": "^.*$"
+								},
+								"docTitleEn": {
+									"$id": "#root/clients/items/docs/items/docTitleEn",
+									"title": "Doctitleen",
+									"type": "string",
+									"default": "",
+									"pattern": "^.*$"
+								},
+								"docTitleFr": {
+									"$id": "#root/clients/items/docs/items/docTitleFr",
+									"title": "Doctitlefr",
+									"type": "string",
+									"default": "",
+									"pattern": "^.*$"
+								},
+								"docInstrEn": {
+									"$id": "#root/clients/items/docs/items/docInstrEn",
+									"title": "Docinstren",
+									"type": "string",
+									"default": "",
+									"pattern": "^.*$"
+								},
+								"docInstrFr": {
+									"$id": "#root/clients/items/docs/items/docInstrFr",
+									"title": "Docinstrfr",
+									"type": "string",
+									"default": "",
+									"pattern": "^.*$"
+								},
+								"docStatusCode": {
+									"$id": "#root/clients/items/docs/items/docStatusCode",
+									"title": "Docstatuscode",
+									"type": "string",
+									"default": "",
+									"pattern": "^.*$"
+								},
+								"docDueDate": {
+									"$id": "#root/clients/items/docs/items/docDueDate",
+									"title": "Docduedate",
+									"type": "null",
+									"default": null
+								},
+								"suppInfoField1": {
+									"$id": "#root/clients/items/docs/items/suppInfoField1",
+									"title": "Suppinfofield1",
+									"type": "string",
+									"default": "",
+									"pattern": "^.*$"
+								},
+								"suppInfoField2": {
+									"$id": "#root/clients/items/docs/items/suppInfoField2",
+									"title": "Suppinfofield2",
+									"type": "string",
+									"default": "",
+									"pattern": "^.*$"
+								},
+								"suppInfoField3": {
+									"$id": "#root/clients/items/docs/items/suppInfoField3",
+									"title": "Suppinfofield3",
+									"type": "string",
+									"default": "",
+									"pattern": "^.*$"
+								},
+								"docStorageRefId": {
+									"$id": "#root/clients/items/docs/items/docStorageRefId",
+									"title": "Docstoragerefid",
+									"type": "null",
+									"default": null
+								},
+								"tempStorageRefId": {
+									"$id": "#root/clients/items/docs/items/tempStorageRefId",
+									"title": "Tempstoragerefid",
+									"type": "null",
+									"default": null
+								},
+								"docSubStatusCode": {
+									"$id": "#root/clients/items/docs/items/docSubStatusCode",
+									"title": "Docsubstatuscode",
+									"type": "string",
+									"default": "",
+									"pattern": "^.*$"
+								},
+								"docRequiredInd": {
+									"$id": "#root/clients/items/docs/items/docRequiredInd",
+									"title": "Docrequiredind",
+									"type": "string",
+									"default": "",
+									"pattern": "^.*$"
+								}
+							}
+						}
+
+					}
+				}
+			}
+
+		}
+	}
+}

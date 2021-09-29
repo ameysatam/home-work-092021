@@ -1,0 +1,118 @@
+FileSchema = {
+    "definitions":
+    {
+        "DocEntries":
+        {
+            "properties":
+            {
+              "docId":{
+                 "type":"string"
+              },
+              "docRefId":{
+                 "type":"number"
+              },
+              "docFormNum":{
+                 "type":"string"
+              },
+              "docGroupEn":{
+                 "type":"string"
+              },
+              "docGroupFr":{
+                 "type":"string"
+              },
+              "docTitleEn":{
+                 "type":"string"
+              },
+              "docTitleFr":{
+                 "type":"string"
+              },
+              "docInstrEn":{
+                 "type":"string"
+              },
+              "docInstrFr":{
+                 "type":"string"
+              },
+              "docStatusCode":{
+                 "type":"string"
+              },
+              "docStatusDescEn":{
+                 "type":"string"
+              },
+              "docStatusDescFr":{
+                 "type":"string"
+              },
+              "docDueDate":{
+                 "type":"string",
+                 "format":"date-time"
+              },
+              "suppInfoField1":{
+                 "type":"string"
+              },
+              "suppInfoField2":{
+                 "type":"string"
+              },
+              "suppInfoField3":{
+                 "type":"string"
+              },
+              "docStorageRefId":{
+                 "type":"string"
+              },
+              "tempStorageRefId":{
+                 "type":"string"
+              }
+            },
+           "required":[
+              "docId",
+              "docRefId",
+              "docFormNum",
+              "docGroupEn",
+              "docGroupFr",
+              "docTitleEn",
+              "docTitleFr",
+              "docInstrEn",
+              "docInstrFr",
+              "docStatusCode",
+              "docStatusDescEn",
+              "docStatusDescFr",
+              "suppInfoField1",
+              "suppInfoField2",
+              "suppInfoField3",
+              "docStorageRefId",
+              "tempStorageRefId"
+           ]
+
+
+
+        }
+
+
+    },
+    "type": "object",
+    "required": [ "docs" ],
+    "properties":
+    {
+        "docs":
+        {
+            "type":"array",
+           "items": {"$ref": "#/definitions/DocEntries"}
+
+        }
+    },
+    "type": "object",
+    "required": [ "docs" ],
+    "additionalProperties": False,
+    "properties":
+    {
+        "docs":
+        {
+            {
+               "type":"array",
+               "items": {"$ref": "#/definitions/DocEntries"}
+
+            }
+        }
+    },
+
+
+
+}
